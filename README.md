@@ -11,3 +11,8 @@ About PyTorch code for TGRS paper "A Group-based Embedding Learning and Integrat
   publisher={IEEE}
 }
 ```
+
+To train the method, run
+```
+sh demo.sh
+```
