@@ -100,10 +100,11 @@ def train(args):
      
 
     # For CAVE
-    #net = GELIN(n_feats=args.n_feats,n_colors=colors,kernel_size=3,pooling_r=2,n_subs=8,n_ovls=2,blocks=8,scale=args.n_scale)
+    net = GELIN(n_feats=args.n_feats,n_colors=colors,kernel_size=3,pooling_r=2,n_subs=8,n_ovls=2,blocks=8,scale=args.n_scale)
 
     # For Chikusei
-    net = GELIN(n_feats=args.n_feats,n_colors=colors,kernel_size=3,pooling_r=2,n_subs=32,n_ovls=8,blocks=6,scale=args.n_scale)
+    
+    #net = GELIN(n_feats=args.n_feats,n_colors=colors,kernel_size=3,pooling_r=2,n_subs=32,n_ovls=8,blocks=6,scale=args.n_scale)
 
     print('# parameters:', sum(param.numel() for param in net.parameters())) 
     model_title = args.dataset_name + "_" + args.model_title + '_n_scale' + str(args.n_scale)
