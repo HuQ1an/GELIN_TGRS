@@ -77,11 +77,11 @@ def train(args):
 
     print('===> Loading datasets')
     if args.dataset_name == 'Cave':
-        train_path = '/data2/huqian/CaveDataMat/trains/'
-        test_path  = '/data2/huqian/CaveDataMat/tests/'
+        train_path = '/data2/CaveDataMat/trains/'
+        test_path  = '/data2/CaveDataMat/tests/'
     elif args.dataset_name == 'Chikusei':
-        train_path = '/data2/huqian/ChikuseiData/trains/'
-        test_path  = '/data2/huqian/ChikuseiData/tests/'
+        train_path = '/data2/ChikuseiData/trains/'
+        test_path  = '/data2/ChikuseiData/tests/'
 
     train_set = HSTrainingData(image_dir=train_path, n_scale=args.n_scale, augment=True)
     train_loader = DataLoader(train_set, batch_size=args.batch_size, num_workers=8, shuffle=True)
