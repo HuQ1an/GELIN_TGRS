@@ -1,13 +1,13 @@
 # GELIN_TGRS
 About PyTorch code for TGRS paper "A Group-based Embedding Learning and Integration Network for Hyperspectral Image Super-resolution"
 ```
-@article{wang2021hyperspectral,
-  title={Hyperspectral Image Super-Resolution via Recurrent Feedback Embedding and Spatial--Spectral Consistency Regularization},
-  author={Wang, Xinya and Ma, Jiayi and Jiang, Junjun},
+@article{wang2022group,
+  title={A Group-Based Embedding Learning and Integration Network for Hyperspectral Image Super-Resolution},
+  author={Wang, Xinya and Hu, Qian and Jiang, Junjun and Ma, Jiayi},
   journal={IEEE Transactions on Geoscience and Remote Sensing},
   volume={60},
-  pages={1--13},
-  year={2021},
+  pages={1--16},
+  year={2022},
   publisher={IEEE}
 }
 ```
